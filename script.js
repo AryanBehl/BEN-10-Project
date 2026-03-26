@@ -24,7 +24,7 @@ function xlr8() {
 }
 
 function changeBg() {
-    document.body.style.backgroundColor = "lightblue";
+    document.body.style.backgroundColor = "darkblue";
 }
 
 function toggleDark() {
