@@ -1,6 +1,6 @@
 # My Project 🚀
 
-This is my HTML, CSS, JavaScript project.
+This is my PERSONAL BEN 10 project.
 
 ## 🔥 Features
 - Responsive design
