@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEN 10</title>
+</head>
+<body>
+    <h1> 👽 Ben 10 Fan Page </h1>
+    <p id="intro">Welcome to the world of Ben Tennyson!</p>
+
+    <!-- Main Alien Display -->
+     <div class ="main">
+        <!-- <img id="alienImg" src="https://upload.wikimedia.org/wikipedia/en/9/90/Ben_10_Alien_Force.png"> -->
+        <h2 id="alienName">Click an alien</h2>
+    </div>
+
+
+
+    <!-- Alien Buttons -->
+
+    <div>
+
+        <button onclick = "heatblast">🔥 Heatblast</button>
+        <button onclick="toggleDark()">🌙 Dark Mode</button>
+        <button onclick="hideText()">❌ Hide Intro</button>
+        <button onclick="showAlert()">📢 Alert</button>
+    </div>
+    <!-- Omnitrix Animation -->
+    <h3>⌚ Omnitrix Power</h3>
+    <button onclick="activateOmnitrix()">Activate</button>
+    <div id="omnitrix"></div>
+
+    <!-- Alien Cards -->
+    <h3>👾 Alien Gallery</h3>
+    <div class="grid">
+        <div class="card" onclick="heatblast()">Heatblast</div>
+        <div class="card" onclick="fourarms()">Four Arms</div>
+        <div class="card" onclick="xlr8()">XLR8</div>
+    </div>
+
+    <!-- Mini Game -->
+    <h3>🎮 Choose Your Favorite Alien</h3>
+    <button onclick="choose('Heatblast')">Heatblast</button>
+    <button onclick="choose('Four Arms')">Four Arms</button>
+    <button onclick="choose('XLR8')">XLR8</button>
+
+    <p id="result"></p>
+
+    <!-- Sound -->
+    <audio id="sound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+     
+       
+
+   
